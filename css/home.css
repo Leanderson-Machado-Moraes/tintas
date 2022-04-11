@@ -18,7 +18,7 @@ body{
     margin-left: auto;
     margin-right: auto;
     width: 50%;
-    height: 493pt;
+    height: 469pt; /* 493pt; */
     background-color: rgb(37, 2, 11);
     border-right: 2px solid red;
     border-left: 2px solid red;
@@ -72,6 +72,7 @@ button{
     color: white;
     border-color: white;
     width: 60%;
+    cursor:pointer;
 
  
 }

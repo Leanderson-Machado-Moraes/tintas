@@ -1,55 +1,106 @@
-*{
+* {
     padding: 0px;
     margin: 0px;
 }
-body{
+
+body {
     background-color: rgb(175, 175, 175);
-  
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
 }
-.linha{
-    width: 100%;
+
+.linha {
+    width: 99.7%;
     background-color: black;
     color: white;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     text-align: center;
+    border: 2px solid red;
 }
+h1{
+    text-shadow:   3px 3px rgb(104, 48, 34);
+}
+
 .container{
+    display: flex;
+    flex-direction: row;
+}
+.box1{
     border-radius: 40px;
     background-color: black;
     color: white;
-    margin-top: 30px;
+    margin-top: 60px;
     width: 30%;
     margin-left: 50px;
     border: 3px solid red;
+    text-align: center;
 }
-input{
+
+input {
     margin-top: 20px;
     text-align: center;
 }
-.metragem{
+
+.metragem {
     margin-top: 20px;
     margin-left: 10px;
-    
-}
-.portas{
-    margin-top: 10px;
-    margin-left: 20px;;
-}
-.portas2{
-    margin-top: 2px;
-    margin-left: 20px;
-   
-}
-.inputPorta{
-    width: 30px;
-    
 
 }
-.titulo{
+
+.portas {
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-right: 190px;
+}
+
+.portas2 {
+    margin-top: 2px;
+    margin-left: 20px;
+
+}
+
+.inputPorta {
+    width: 30px;
+
+
+}
+
+.titulo {
     text-align: center;
 }
-.dadosdaporta{
-width: 80px;
-text-align: center;
-margin-left: 20px;
+
+.dadosdaporta {
+    width: 60px;
+    text-align: center;
+    margin-left: 20px;
+}
+
+.janelas {
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-right: 190px;
+}
+
+.inputjanela {
+    width: 30px;
+}
+
+.dadosdajanela {
+    width: 60px;
+    text-align: center;
+    margin-left: 20px;
+    margin-bottom: 50px;
+}
+.btncal{
+    font-size: 18pt;
+    border-radius: 20px;
+    width: 300px;
+    margin-bottom: 10px;
+    cursor:pointer;
+}
+.btncal:hover{
+    
+    background-color: gold;
+    transition: 0.7s;
+    opacity: 1.0;
 }
