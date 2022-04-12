@@ -4,13 +4,13 @@
 }
 
 body {
-    background-color: rgb(175, 175, 175);
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-image: url(../img/lowpoly.png)
 
 }
 
 .linha {
-    width: 99.7%;
+    width: 99.5%;
     background-color: black;
     color: white;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -43,7 +43,7 @@ input {
 
 .metragem {
     margin-top: 20px;
-    margin-left: 10px;
+ margin-right: 16px; 
 
 }
 
@@ -104,3 +104,46 @@ input {
     transition: 0.7s;
     opacity: 1.0;
 }
+.caixaDeResposta{
+    border: 3px solid red;
+    margin-left: 160px;
+    margin-top: 150px;
+    height: 200px;
+    border-radius: 40px;
+    text-align: center;
+    width: 50%;
+    background-color: black;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.equal{
+    position: absolute;
+ margin-left: 525px;
+ margin-top: 240px;
+}
+.alturaparede{
+    width: 60px;
+    text-align: center;
+    margin-left: 20px;
+}
+.larguraparede{
+    width: 60px;
+    text-align: center;
+    margin-left: 10px;
+   
+}
+.box2{
+    text-align: center;
+   margin-top: 60px;
+   font-size: 18pt;
+    
+}
+a{
+   margin-left: 650px;
+   margin-top: 200px;
+  font-size: 30pt;
+  color: black;
+  text-decoration-color: red;
+   
+}
+
